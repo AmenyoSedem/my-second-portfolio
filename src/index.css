@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Roboto+Mono:wght@100..700&family=Rubik:wght@745&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  width: 130px;
+  height: 100px;
+}
