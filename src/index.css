@@ -5,10 +5,24 @@
 @tailwind utilities;
 
 :root {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto mono", sans-serif;
 }
 
 .logo {
-  width: 130px;
-  height: 100px;
+  width: 80px;
+  height: 70px;
+  border-radius: 30%;
+  margin: 0 8px;
+}
+
+#hero,
+#experience,
+#about,
+#projects {
+  height: 100%;
+  z-index: 0;
+}
+
+#hero {
+  margin-top: 130px;
 }

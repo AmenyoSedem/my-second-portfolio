@@ -3,38 +3,38 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const heroContent = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and TailwindCSS, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and Django. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const aboutContent = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it have evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving problems to deliver very quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, reading novels, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Library Assistant",
+    company: "Koforidua Technical University",
+    description: `Because of the time that comes with this National Service Scheme, I normally use my time to explore new technologies, learn linux systems and create projects and maintaining web applications using JavaScript, React.js, Node.js, and Django. Implemented RESTful APIs and integrated with MongoDB databases. I also act as a student's project advisor and I help them to define project requirements and guide them to implement the projects.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB", "Django"],
   },
   {
     year: "2022 - 2023",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "Student Project",
+    description: `Created and implemented user interfaces for web applications using Next.js and React. Collaborated closely with backend developers to integrate frontend elements with Node.js APIs. Developed responsive designs and enhanced frontend performance.`,
+    technologies: ["HTML", "CSS", "JS", "SQLite", "Django"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Web Developer",
+    company: "In My Father's House",
+    description: `Built and sustained Students Management and PTA web applications utilizing JavaScript, React.js, Django. Worked closely with cross-functional teams to deliver top-notch software products within deadlines.`,
+    technologies: ["Python", "Django", "React", "Postgres"],
   },
   {
-    year: "2020 - 2021",
+    year: "Apr - Aug 2023",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Self",
+    description: `I developed applications using JavaScript, React.js, and Node.js. Handled database management and created data storage solutions with MongoDB. Worked closely with product managers to prioritize features and enhancements. `,
+    technologies: ["Ruby", "Three.js", "React", "Django"],
   },
 ];
 
@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Kwabenya, Accra, Ghana",
+  phoneNo: "+233 59 729 2824 ",
+  email: "sedemamenyo28@gmail.com",
 };
