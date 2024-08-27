@@ -29,17 +29,17 @@ const QuickChat = () => {
             <form className='mt-40 mb-20 text-center justify-center' action="https://formspree.io/f/mvgpdoaz" method='post'>
                 <div className="my-10">
                     <label htmlFor="name" hidden>Name</label>
-                    <input className='text-xl text-neutral-400 bg-transparent border border-neutral-500 rounded-2xl p-2 pl-5 py-3 h-20' type="text" name='name' id='name'  placeholder='Name' required/>
+                    <input className='text-xl text-neutral-400 bg-transparent border border-neutral-500 rounded-2xl p-2 pl-5 py-3 h-20 sm:h-14' type="text" name='name' id='name'  placeholder='Name' required/>
                 </div>
 
                 <div className="py-10">
                     <label htmlFor="name" hidden>Email</label>
-                    <input className='text-xl text-neutral-400 bg-transparent border border-neutral-500 rounded-2xl pl-5 py-3 h-20' type="Email" name='email' id='email'  placeholder='Email' required/>
+                    <input className='text-xl text-neutral-400 bg-transparent border border-neutral-500 rounded-2xl pl-5 py-3 h-20 sm:h-14' type="Email" name='email' id='email'  placeholder='Email' required/>
                 </div>
 
                 <div className="py-10">
                     <label className='' htmlFor="name" hidden>Message</label>
-                    <textarea className='text-xl text-neutral-400 bg-transparent border border-neutral-500 rounded-2xl pl-5 pt-3 h-80' name='message' id='message'  placeholder='Message' required></textarea>
+                    <textarea className='text-xl text-neutral-400 bg-transparent border border-neutral-500 rounded-2xl pl-5 pt-3 h-80 sm:h-60' name='message' id='message'  placeholder='Message' required></textarea>
                 </div>
                 <input className="my-10 border border-neutral-600 py-4 px-8 rounded-2xl cursor-pointer" id='submit' type="submit" value="Submit"/>
             </form>
