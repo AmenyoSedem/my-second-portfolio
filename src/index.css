@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: "Roboto mono", sans-serif;
+  font-family: "Roboto mono", Geneva, sans-serif, Verdana, sans-serif;
 }
 
 .logo {
