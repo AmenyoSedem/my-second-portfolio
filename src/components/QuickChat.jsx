@@ -41,7 +41,7 @@ const QuickChat = () => {
                     <label className='' htmlFor="name" hidden>Message</label>
                     <textarea className='text-xl text-neutral-400 bg-transparent border border-neutral-500 rounded-2xl pl-5 pt-3 h-60' name='message' id='message'  placeholder='Message' required></textarea>
                 </div>
-                <input className="my-10 border border-neutral-600 py-4 px-8 rounded-2xl cursor-pointer" id='submit' type="submit" value="Submit"/>
+                <input className="my-10 border border-neutral-600 py-4 px-8 rounded-2xl cursor-pointer" id='submit' type="submit" value="Send"/>
             </form>
       </div>
     </div>
