@@ -18,11 +18,38 @@
 #hero,
 #experience,
 #about,
-#projects {
+#projects,
+#chat {
   height: 100%;
   z-index: 0;
 }
 
 #hero {
   margin-top: 130px;
+}
+
+#email,
+#name,
+#message {
+  width: 500px;
+}
+
+#submit:hover {
+  color: black;
+  background-image: linear-gradient(to right, pink, purple);
+  transition: 0.8s ease;
+}
+
+@media only screen and (width <= 800px) {
+  #email,
+  #name,
+  #message {
+    width: 300px;
+  }
+
+  #submit:hover {
+    color: black;
+    background-image: linear-gradient(to right, pink, purple);
+    transition: 0.8s ease;
+  }
 }
