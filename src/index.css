@@ -40,6 +40,10 @@
   transition: 0.8s ease;
 }
 
+#my-email {
+  text-decoration: none;
+}
+
 @media only screen and (width <= 800px) {
   #email,
   #name,
