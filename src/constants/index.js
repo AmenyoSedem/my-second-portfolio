@@ -72,5 +72,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Kwabenya, Accra, Ghana",
   phoneNo: "+233 59 729 2824 ",
-  email: "sedemamenyo28@gmail.com",
+  email: "amenyosedem72@gmail.com",
 };
