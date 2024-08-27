@@ -23,7 +23,12 @@ const iconVariants = (duration) => ({
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
-        <h1 className="my-20 text-center text-4xl ">Technologies</h1>
+        <motion.h1 
+            initial={{ y: -100, opacity: 0 }}
+            whileInView={{ y:0, opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0 }}
+            className="my-20 text-center text-4xl "
+        >Technologies</motion.h1>
         <div className="flex flex-wrap items-center justify-center gap-4">
             <motion.div
                 variants={iconVariants(2.5)}

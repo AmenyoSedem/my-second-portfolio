@@ -5,9 +5,19 @@ import { motion } from 'framer-motion';
 function About() {
   return (
     <div id='about' className="border-b border-neutral-900 py-40">
-        <h1 className="my-20 text-center text-4xl">About
-            <span className="text-neutral-500"> Me</span>
-        </h1>
+        <motion.h1 
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0 }}
+            className="my-20 text-center text-4xl">About
+            <motion.span
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0 }} 
+                className="text-neutral-500"
+            >{` `}Me
+            </motion.span>
+        </motion.h1>
         <div className="flex flex-wrap">
             <motion.div 
                 initial={{ x: -100, opacity: 0 }}
